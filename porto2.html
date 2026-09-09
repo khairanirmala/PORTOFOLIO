@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PortoLa. — Portofolio Khairani</title>
+<meta name="description" content="Portofolio Khairani — UI/UX Design, Website Development, Manage Project.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="porto2.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="logo">PortoLa<span>.</span></a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="nav-link" data-target="home">Home</a>
+      <a href="#projects" class="nav-link" data-target="projects">About</a>
+      <a href="#services" class="nav-link" data-target="services">Service</a>
+      <a href="#skills" class="nav-link" data-target="skills">Skills</a>
+      <a href="#achievements" class="nav-link" data-target="achievements">Experience</a>
+      <a href="#testimonials" class="nav-link" data-target="testimonials">Review</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="https://wa.me/6282311293977" class="btn btn-primary btn-contact" target="_blank" rel="noopener">Contact Me</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="badge">
+          <svg class="icon-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg>
+          <span>Hello, Everyone! This is My Page</span>
+          <svg class="icon-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg>
+        </div>
+
+        <h1 class="hero-title">
+          WELCOME TO<br>
+          MY PORTOFOLIO<br>
+          I AM <span class="highlight">KHAIRANI</span>
+        </h1>
+
+        <p class="hero-lead">Student at SMK Telkom Purwokerto who has a keen interest in the world of IT, including design, business, and coding.</p>
+
+        <a href="#projects" class="btn btn-primary btn-lg" id="viewProjectsBtn">View My Projects</a>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="gambar-removebg-preview.png" alt="Foto Khairani" class="photo-frame__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOME OF MY PROJECT ============ -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-heading center">
+        <span class="rule"></span>
+        <h2>Some of my project</h2>
+      </div>
+
+      <div class="project-carousel">
+        <button class="carousel-btn" id="prevProject" aria-label="Proyek sebelumnya">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#090814" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+
+        <div class="project-card" id="projectCard">
+          <div class="project-visual" id="projectVisual">
+            <img id="projectImage" class="visual-photo" src="" alt="">
+          </div>
+          <div class="project-info">
+            <h3 id="projectTitle"></h3>
+            <p id="projectDesc"></p>
+          </div>
+        </div>
+
+        <button class="carousel-btn" id="nextProject" aria-label="Proyek berikutnya">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#090814" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 6 15 12 9 18"/></svg>
+        </button>
+      </div>
+
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </section>
+
+  <!-- ============ MY SERVICES ============ -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-heading center">
+        <span class="rule"></span>
+        <h2>My Services</h2>
+      </div>
+
+      <div class="service-list">
+        <article class="service-card service-card--dark">
+          <h3>UI/UX Design</h3>
+          <p>Saya merancang antarmuka yang simpel, menarik, dan mudah digunakan, dengan fokus pada pengalaman pengguna serta konsistensi visual di setiap halaman.</p>
+          <a href="https://www.figma.com/design/LCCaA5cBQJOB799OgUtgyv/DESIGN-WEBSITE-7?node-id=0-1&p=f&t=OhhWaZUE80Rsi2MO-0" class="btn btn-primary btn-sm" target="_blank" rel="noopener">View My Work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg>
+          </a>
+        </article>
+
+        <article class="service-card">
+          <h3>Website Development</h3>
+          <p>Membangun website yang cepat, responsif, dan SEO-friendly menggunakan HTML, CSS, dan JavaScript modern agar bisnis Anda tampil maksimal di semua perangkat.</p>
+          <a href="#projects" class="btn btn-outline btn-sm">View My Work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg>
+          </a>
+        </article>
+
+        <article class="service-card">
+          <h3>Manage Project</h3>
+          <p>Mengelola alur kerja proyek dari perencanaan hingga eksekusi, memastikan setiap tahapan berjalan tepat waktu dan sesuai target yang ditentukan.</p>
+          <a href="https://khairworkspace12.atlassian.net/jira/software/projects/FA/boards/37/backlog?atlOrigin=eyJpIjoiMTRiY2M3NmQyNDFkNGE3N2JlZjQwMzk3ZmJiZmY2YmIiLCJwIjoiaiJ9" class="btn btn-outline btn-sm" target="_blank" rel="noopener">View My Work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg>
+          </a>
+        </article>
+
+        <article class="service-card">
+          <h3>Photo Editing</h3>
+          <p>Mengedit dan menyempurnakan foto produk maupun personal branding agar terlihat profesional, konsisten, dan siap digunakan di berbagai platform digital.</p>
+          <a href="Fotografi.jpeg" class="btn btn-outline btn-sm" target="_blank" rel="noopener">View My Work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS & EXPERIENCE ============ -->
+  <section id="achievements" class="achievements">
+    <div class="container achievements-inner">
+      <div class="achievements-photo">
+        <div class="photo-frame photo-frame--sm">
+          <img src="gambar-removebg-preview.png" alt="Foto Khairani" class="photo-frame__img">
+        </div>
+      </div>
+
+      <div class="achievements-text">
+        <div class="badge">
+          <svg class="icon-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg>
+          <span>Hello, Everyone! This is My Page</span>
+          <svg class="icon-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg>
+        </div>
+        <h2>My Achievements &amp; Experience.</h2>
+        <p>Selama menempuh pendidikan di SMK Telkom Purwokerto, saya aktif terlibat dalam berbagai proyek UI/UX Design, pengembangan website, dan pengelolaan proyek — mengasah kemampuan mulai dari riset, desain, hingga eksekusi produk digital.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS & TOOLS ============ -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-heading center">
+        <h2>Skills &amp; Tools For Those Looking For</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><img src="figma_logo(1) - Copy.png" alt="Figma"></div>
+          <span>UI/UX Design</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><img src="VSC_logo.jpg" alt="Visual Studio Code"></div>
+          <span>Web Development</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><img src="jira_logo.png" alt="Jira"></div>
+          <span>Project Management</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><img src="LR_logo_clean.png" alt="Adobe Lightroom"></div>
+          <span>Photo Editing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Collaboration <svg class="icon-star sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg> Testimonials <svg class="icon-star sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg> </span>
+      <span>Collaboration <svg class="icon-star sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg> Testimonials <svg class="icon-star sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg> </span>
+      <span>Collaboration <svg class="icon-star sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg> Testimonials <svg class="icon-star sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg> </span>
+      <span>Collaboration <svg class="icon-star sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg> Testimonials <svg class="icon-star sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7-6.2 3.7 1.6-7L1.9 8.8l7.1-.7L12 1.5z"/></svg> </span>
+    </div>
+  </div>
+
+  <!-- ============ LET'S WORK TOGETHER ============ -->
+  <section id="contact" class="together">
+    <div class="container">
+      <div class="together-grid">
+        <div class="together-text">
+          <h2>Let&rsquo;s Work<br>Together</h2>
+          <p>Tertarik berkolaborasi atau punya proyek yang ingin diwujudkan? Saya siap membantu mewujudkan ide Anda menjadi produk digital yang fungsional sekaligus enak dipandang.</p>
+        </div>
+
+        <div class="testimonials" id="testimonials">
+          <div class="testimonial-card">
+            <p class="quote">&ldquo;Kolaborasi dengan Khairani sangat menyenangkan — desainnya rapi, komunikatif, dan selalu tepat waktu. Hasil akhirnya melebihi ekspektasi kami!&rdquo;</p>
+            <p class="author">Nadia R.<span>Pemilik Toko Online</span></p>
+          </div>
+          <div class="testimonial-card">
+            <p class="quote">&ldquo;Website yang dibuat responsif dan mudah digunakan. Prosesnya cepat dan revisi ditangani dengan sabar. Sangat direkomendasikan!&rdquo;</p>
+            <p class="author">Fajar S.<span>Startup Founder</span></p>
+          </div>
+        </div>
+      </div>
+
+      <nav class="together-nav">
+        <a href="#services">Service</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Experience</a>
+      </nav>
+
+      <div class="together-bottom">
+        <div class="social-links">
+          <a href="https://www.instagram.com/knp._06?stkn=MWwzemtoMmkxZHM4YQ==" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1"/></svg>
+          </a>
+          <a href="#" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 8 4 12.5 9 17"/><polyline points="15 8 20 12.5 15 17"/></svg>
+          </a>
+          <a href="mailto:khair.workspace12@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3 7 12 13 21 7"/></svg>
+          </a>
+        </div>
+        <p class="copyright">Copyright &copy; 2026 Khairani. All rights reserved.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="porto2.js"></script>
+</body>
+</html>
